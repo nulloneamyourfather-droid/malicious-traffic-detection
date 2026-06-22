@@ -1,0 +1,23 @@
+# 数据文件（太大，不上传）
+data/
+*.zip
+*.parquet
+
+# 模型文件（可重新训练生成）
+models/*.joblib
+models/*.txt
+
+# 结果图表（可重新生成）
+results/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# 系统
+.DS_Store
+Thumbs.db
